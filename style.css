@@ -1,0 +1,318 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  cursor: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: #dbdf16;
+  border-radius: 50%;
+  mix-blend-mode: difference; 
+  pointer-events: none; 
+  transform: translate(-50%, -50%);
+}
+
+
+header {
+  background-color: maroon;
+  color: #fff;
+  padding: 22px 0;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.content {
+  text-align: center;
+  padding: 117px;
+  background-image: url(cover.png);
+  margin: 20px;
+  background-size: cover
+
+}
+
+.centered {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.trybg {
+  background-color: #f7c700;
+  padding: 5px 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.mainname {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: maroon;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 17px;
+  padding: 1px 13px;
+
+}
+
+.bdetail {
+  font-size: 16px;
+  margin: 20px 0;
+  color: wheat;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 28px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: button-shimmer 2s infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+
+button:hover {
+  background: linear-gradient(to bottom, #2c2f63, #ce0e0e);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
+}
+
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes button-shimmer {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+
+@keyframes button-particles {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+.Ingredients {
+  color: white;
+  background-color: brown;
+  text-align: center;
+  
+
+}
+
+
+ol {
+  text-align: left;
+  margin: 20px;
+  list-style-type: square;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+
+.pricelist {
+  color: white;
+  background-color: brown;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid #ffffff;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+.history {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+
+.submarine {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.pepsi {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.historysub {
+  color: white;
+  background-color: brown;
+  text-align: center;
+}
+
+.ingreimg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+  height: 541px;
+}
+
+ol {
+  text-align: justify;
+  margin: 20px;
+  color: wheat;
+  padding: 50px;
+  background-color: maroon;
+}
+
+.light {
+  width: 40px;
+  height: 40px;
+  background-color: #87f10f; 
+  border-radius: 50%; 
+  position: absolute;
+  animation: moveLight 5s linear infinite; 
+}
+
+@keyframes moveLight {
+  0% {
+      left: -50px; /* Start off the screen to the left */
+  }
+  100% {
+      left: calc(100% + 50px); /* Move the light off the screen to the right */
+  }
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-logo h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  text-align: center;
+}
